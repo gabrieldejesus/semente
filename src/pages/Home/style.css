@@ -163,6 +163,9 @@ header {
     position:fixed;
     animation:mouse 1.2s infinite;
 }
+.mouseUp img {
+    transform:rotate(180deg);
+}
 @keyframes mouse {
     0%{transform:translateY(0px)}
     50%{transform:translateY(10px)}
@@ -441,4 +444,93 @@ footer {
     border-radius:2px;
     justify-content:center;
     border-top:2px solid #EEE;
+}
+/*============================================================ RESPONSIVE ============================================================*/
+@media (max-width:1252px) {
+    .container {
+        padding-left:10px;
+        padding-right:10px;
+    }
+    .banner-content {
+        padding-left:0px;
+    }
+    .banner-content h1 {
+        font-size:35px;
+    }
+    .banner-thumbnail {
+        padding-right:0px;
+        align-items:center;
+    }
+    .broto-thumbnail img, 
+    .prepare-thumbnail img {
+        height:500px;
+    }
+}
+@media (max-width:1070px) {
+    #banner {
+        height:auto;
+    }
+    #banner .container {
+        flex-direction:column;
+    }
+    .banner-content {
+        text-align:center;
+        align-items:center;
+    }
+    .banner-content h1 {
+        padding-top:60px;
+        max-width:600px;
+    }
+    .banner-content p {
+        max-width:600px;
+    }
+}
+@media (max-width:850px) {
+    main,
+    #promotion,
+    #prepare,
+    footer {
+        height:auto;
+    }
+    main .container,
+    #promotion .container,
+    #prepare .container {
+        padding-top:50px;
+        padding-bottom:50px;
+        flex-direction:column;
+    }
+    .tag {
+        text-align:center;
+    }
+    .broto-content,
+    .prepare-content {
+        align-items:center;
+        text-align:center;
+    }
+    .promotion-headline h1,
+    #contact h1 {
+        text-align:center;
+        line-height:50px;
+    }
+    .promotion-cards {
+        margin-top:0;
+        align-items:center;
+        flex-direction:column;
+    }
+    .promotion-cards--card:first-child {
+        margin-bottom:56px;
+    }
+    .footer-main {
+        align-items:center;
+        flex-direction:column;
+    }
+    .footer-main--menu {
+        margin-top:26px;
+        margin-bottom:26px;
+    }
+}
+@media (max-width:710px) {
+    .mouse {
+        display:none;
+    }
 }

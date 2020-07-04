@@ -90,10 +90,10 @@ export default function Home(){
                         <div class="tag">Prepare a sua escola!!</div>
                         <div class="bar"></div>
                         <h2>Com a semente você terá</h2>
+                        <p><strong>+</strong> Parcerias com livrarias e sebos</p>
                         <p><strong>+</strong> Arsenal variado de livros e conteúdos</p>
                         <p><strong>+</strong> Relatórios personalizados dos seus alunos</p>
                         <p><strong>+</strong> Interatividade e acompanhamento do crescimento das turmas</p> 
-                        <p><strong>+</strong> Parcerias com livrarias e sebos</p>
                         <p>
                             Comece hoje a mudança. Fale com a equipe da Árvore Educação e obtenha essa solução na sua escola. 
                             Diminua agora as barreiras para a educação.
