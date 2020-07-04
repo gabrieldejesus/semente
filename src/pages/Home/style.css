@@ -174,7 +174,10 @@ main {
     display:flex;
     align-items:center;
     justify-content:center;
-    background-position:right;
+    background-size:auto;
+    background-repeat:no-repeat;
+    background-position:right bottom;
+    background-image:url('/assets/bg.svg');
 }
 .tag {
     font-size:18px;
@@ -273,6 +276,10 @@ main {
     display:flex;
     align-items:center;
     justify-content:center;
+    background-size:auto;
+    background-repeat:no-repeat;
+    background-position:right bottom;
+    background-image:url('/assets/bg.svg');
     box-shadow:-10px 10px 30px #c4c4c459;
 }
 .prepare-thumbnail {
