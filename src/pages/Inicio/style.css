@@ -1,0 +1,163 @@
+/*============================================================ DEFAULT ============================================================*/
+* {
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+body {
+    outline:none;
+}
+/* colors */
+:root {
+    --primary-color:#2CDD82;
+    --secondary-color:#012F53;
+    --text-color:#221314;
+}
+/* general container */
+.container {
+    width:1252px;
+    display:flex;
+    justify-content:space-between;
+}
+/* change direction to display flex */
+.column {
+    flex-direction:column; 
+}
+#initial a {
+    color:#FFF;
+    font-size:17px;
+    text-decoration:none;
+}
+:hover {
+    transition:all 0.3s;
+}
+#initial h1 {
+    margin:0;
+    font-size:45px;
+    font-weight:700;
+    line-height:60px;
+    color:var(--secondary-color);
+}
+#initial h2 {
+    margin:0;
+    font-size:22px;
+    font-weight:700;
+    color:var(--secondary-color);
+}
+#initial h3 {
+    margin:0;
+    font-size:22px;
+    font-weight:700;
+    line-height:26px;
+    margin-top:10px;
+    margin-bottom:10px;
+    color:var(--secondary-color);
+}
+#initial p {
+    margin:0;
+    font-size:18px;
+    font-weight:400;
+    color:var(--text-color);
+}
+/*============================================================ HEADER ============================================================*/
+#initial header {
+    height:90px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#initial header .container {
+    justify-content:center;
+}
+#initial .logo img {
+    width:164px;
+}
+/*============================================================ BANNER ============================================================*/
+#initial main {
+    height:calc(100vh - 340px);
+}
+#initial main .banner {
+    display:flex;
+    justify-content:center;
+    overflow:hidden;
+    height:calc(100vh - 340px);
+}
+#initial .banner .sliders {
+    width:1000vw;
+    height:100%;
+}
+#initial .banner .slide {
+    width:100vw;
+    height:100%;
+    display:inline-block;
+}
+#initial .banner .slide p {
+    max-width:310px;
+    text-align:center;
+}
+#initial .banner .slidearea {
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#initial .banner .sliders-pointers {
+    width:100vw;
+    height:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:absolute;
+    bottom:300px;
+}
+#initial .banner .pointer {
+    cursor:pointer;
+    width:15px;
+    height:15px;
+    border-radius:10px;
+    background-color:#BEE2FF;
+}
+#initial .banner .pointer.selected {
+    background-color:#012F53;
+}
+#initial .banner .pointer:first-child {
+    margin-right:16px;
+}
+#initial .banner .pointer:last-child {
+    margin-left:16px;
+}
+/*============================================================ BANNER ============================================================*/
+#initial #start {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#initial #start .container {
+    justify-content:center;
+}
+#initial .start-area {
+    display:flex;
+    align-items:center;
+    margin-top:100px;
+    justify-content:center;
+}
+#initial .start-area--register,
+#initial .start-area--login {
+    cursor:pointer;
+    width:300px;
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:6px;
+    background-color:var(--primary-color);
+}
+#initial .start-area--register:hover,
+#initial .start-area--login:hover {
+    border:2px solid #29CA77;
+}
+#initial .start-area--login {
+    margin-left:20px;
+    background-color:#FFF;
+    color:var(--primary-color);
+    border:1px solid var(--primary-color);
+}

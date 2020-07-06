@@ -14,7 +14,7 @@ export default function Home(){
                                 <li><a href="#">Início</a></li>
                                 <li><a href="#prepare">Prepare a sua escola</a></li>
                                 <li><a href="#contact">Contato</a></li>
-                                <li><div class="button"><a href="#">Quero na minha escola</a></div></li>
+                                <li><div class="button"><a href="/initial">Quero na minha escola</a></div></li>
                             </ul>
                         </nav>
                     </div>
@@ -53,7 +53,7 @@ export default function Home(){
                             Com o intuito também de exercitar o senso de responsabilidade, o aluno terá suas próprias metas e será 
                             responsável pelo crescimento do Broto. As formas de incentivo ao conhecimento também podem estar além da leitura.
                         </p>
-                        <div class="button"><a href="#">Conheça essa forma de inovação</a></div>
+                        <div class="button"><a href="/initial">Conheça essa forma de inovação</a></div>
                     </div>
                 </div>
             </main>
@@ -98,7 +98,7 @@ export default function Home(){
                             Comece hoje a mudança. Fale com a equipe da Árvore Educação e obtenha essa solução na sua escola. 
                             Diminua agora as barreiras para a educação.
                         </p>
-                        <div class="button"><a href="#">Quero o semente na minha escola</a></div>
+                        <div class="button"><a href="/initial">Quero o semente na minha escola</a></div>
                     </div>
                 </div>
             </section>
@@ -159,7 +159,7 @@ export default function Home(){
                                     <li><a href="#">Início</a></li>
                                     <li><a href="#prepare">Prepare a sua escola</a></li>
                                     <li><a href="#contact">Contato</a></li>
-                                    <li><div class="button"><a href="#">Quero na minha escola</a></div></li>
+                                    <li><div class="button"><a href="/initial">Quero na minha escola</a></div></li>
                                 </ul>
                             </nav>
                         </div>

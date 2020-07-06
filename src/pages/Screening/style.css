@@ -1,0 +1,108 @@
+/*============================================================ DEFAULT ============================================================*/
+* {
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+body {
+    outline:none;
+}
+/* colors */
+:root {
+    --primary-color:#2CDD82;
+    --secondary-color:#012F53;
+    --text-color:#221314;
+}
+/* general container */
+#screening .container {
+    width:800px;
+    display:flex;
+    justify-content:space-between;
+}
+/* change direction to display flex */
+.column {
+    flex-direction:column; 
+}
+#screening a {
+    color:#FFF;
+    font-size:17px;
+    text-decoration:none;
+}
+:hover {
+    transition:all 0.3s;
+}
+#screening h1 {
+    margin:0;
+    font-size:45px;
+    font-weight:700;
+    line-height:60px;
+    color:var(--secondary-color);
+}
+#screening h2 {
+    margin:0;
+    font-size:29px;
+    font-weight:400;
+    color:var(--secondary-color);
+}
+#screening h3 {
+    margin:0;
+    font-size:22px;
+    font-weight:700;
+    line-height:26px;
+    margin-top:10px;
+    margin-bottom:10px;
+    color:var(--secondary-color);
+}
+#screening p {
+    margin:0;
+    font-size:18px;
+    font-weight:400;
+    color:var(--text-color);
+}
+#screening strong {
+    font-weight:700;
+}
+#screening {
+    margin-top:40px;
+}
+/*============================================================ MAIN ============================================================*/
+#screening main {
+    display:flex;
+    justify-content:center;
+}
+#screening main .container {
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+#screening headline {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#screening .broto img {
+    width:280px;
+    margin-top:40px;
+}
+#screening main a {
+    cursor:pointer;
+    width:100%;
+    height:42px;
+    border:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#FFF;
+    font-size:17px;
+    border-radius:6px;
+    margin-top:44px;
+    background-color:var(--primary-color);
+}
+/*============================================================ RESPONSIVE ============================================================*/
+@media (max-width:800px) {
+    #screening {
+        margin-top:0;
+    }
+    #screening .broto img {
+        width:180px;
+    }
+}

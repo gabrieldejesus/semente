@@ -172,7 +172,7 @@ header {
     100%{transform:translateY(0px)}
 }
 /*============================================================ BROTO ============================================================*/
-main {
+#home main {
     height:768px;
     display:flex;
     align-items:center;

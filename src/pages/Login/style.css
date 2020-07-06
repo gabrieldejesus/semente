@@ -1,0 +1,155 @@
+/*============================================================ DEFAULT ============================================================*/
+* {
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+body {
+    outline:none;
+}
+/* colors */
+:root {
+    --primary-color:#2CDD82;
+    --secondary-color:#012F53;
+    --text-color:#221314;
+}
+/* general container */
+#login .container {
+    width:800px;
+    display:flex;
+    justify-content:space-between;
+}
+/* change direction to display flex */
+.column {
+    flex-direction:column; 
+}
+#login a {
+    color:#FFF;
+    font-size:17px;
+    text-decoration:none;
+}
+:hover {
+    transition:all 0.3s;
+}
+#login h1 {
+    margin:0;
+    font-size:45px;
+    font-weight:700;
+    line-height:60px;
+    color:var(--secondary-color);
+}
+#login h2 {
+    margin:0;
+    font-size:22px;
+    font-weight:700;
+    color:var(--secondary-color);
+}
+#login h3 {
+    margin:0;
+    font-size:22px;
+    font-weight:700;
+    line-height:26px;
+    margin-top:10px;
+    margin-bottom:10px;
+    color:var(--secondary-color);
+}
+#login p {
+    margin:0;
+    font-size:18px;
+    font-weight:400;
+    color:var(--text-color);
+}
+/*============================================================ HEADER ============================================================*/
+#login header {
+    height:90px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#login .logo img {
+    width:30px;
+}
+/*============================================================ MAIN ============================================================*/
+#login main {
+    display:flex;
+    justify-content:center;
+}
+#login form {
+    display:flex;
+    margin-top:30px;
+}
+#login .form-item {
+    display:flex;
+}
+#login .form-item label {
+    font-size:18px;
+    font-weight:700;
+    margin-bottom:7px;
+    color:var(--secondary-color);
+}
+#login input,
+#login button {
+    outline:none;
+}
+#login .form-item input {
+    width:100%;
+    height:54px;
+    font-size:16px;
+    padding:10px;
+    border-radius:6px;
+    margin-bottom:20px;
+    border:1px solid #CCE3FF;
+}
+#login .form-item input[type=password] {
+    background-size:auto;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-position-x:right;
+    background-image:url('/assets/hidden.svg');
+}
+#login form a {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    width:100%;
+    height:42px;
+    color:#FFF;
+    font-size:17px;
+    border:0;
+    border-radius:6px;
+    margin-bottom:20px;
+    background-color:var(--primary-color);
+}
+#login .form-item--options {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+#login .form-item--others {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:24px;
+}
+#login .form-item--others a {
+    display:flex;
+    margin-top:20px;
+    color:var(--secondary-color);
+}
+#login .form-item--others a:hover {
+    text-decoration:underline;
+}
+/*============================================================ REPONSIVE ============================================================*/
+@media (max-width:732px) {
+    #login .form-item--options {
+        justify-content:center;
+    }
+}
+@media (max-width:400px) {
+    #login .container {
+        width:310px;
+    }
+    #login .form-item--options img {
+        width:290px;
+    }
+}
