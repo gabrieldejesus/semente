@@ -8,7 +8,7 @@ We seek to develop an app accessible to everyone, in a fun and educational way. 
 ![](public/assets/web-preview.gif)
 
 > Team
-![](public/assets/team-preview.gif)
+![](public/assets/team-preview.png)
 
 
 ## Release history
@@ -18,11 +18,11 @@ We seek to develop an app accessible to everyone, in a fun and educational way. 
 
 ## Meta
 
-Sara Oliveira - [Marketing]() – hi@email.com
-Ingrid Queiroz - [Business](https://www.linkedin.com/in/ingridqcosta) – ingridq_@hotmail.com
-Lucas Venturini - [UX Designer]() – hi@email.com
-Gabriel de Jesus – [Front-end Developer](https://www.gabrieldesenvolvedor.com/) – contato@gabrieldesenvolvedor.com
-Franklin Martins - [Back-end Developer]() – hi@email.com
+* Lucas Venturini - [UX Designer]() – hi@email.com
+* Gabriel de Jesus – [Front-end Developer](https://www.gabrieldesenvolvedor.com/) – contato@gabrieldesenvolvedor.com
+* Franklin Martins - [Back-end Developer]() – hi@email.com
+* Ingrid Queiroz - [Business](https://www.linkedin.com/in/ingridqcosta) – ingridq_@hotmail.com
+* Sara Oliveira - [Marketing]() – hi@email.com
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
