@@ -18,11 +18,11 @@ We seek to develop an app accessible to everyone, in a fun and educational way. 
 
 ## Meta
 
-* Lucas Venturini - [UX Designer]() – hi@email.com
+* Lucas Venturini - [UX Designer]()
 * Gabriel de Jesus – [Front-end Developer](https://www.gabrieldesenvolvedor.com/) – contato@gabrieldesenvolvedor.com
-* Franklin Martins - [Back-end Developer]() – hi@email.com
+* Franklin Martins - [Back-end Developer]()
 * Ingrid Queiroz - [Business](https://www.linkedin.com/in/ingridqcosta) – ingridq_@hotmail.com
-* Sara Oliveira - [Marketing]() – hi@email.com
+* Sara Oliveira - [Marketing]()
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
