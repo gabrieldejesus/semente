@@ -18,7 +18,7 @@ We seek to develop an app accessible to everyone, in a fun and educational way. 
 
 ## Meta
 
-* Lucas Venturini - [UX Designer]()
+* Lucas Venturini - [UX Designer](https://www.linkedin.com/in/thelucasventurini) - lucas.venturini.duarte@gmail.com
 * Gabriel de Jesus – [Front-end Developer](https://www.gabrieldesenvolvedor.com/) – contato@gabrieldesenvolvedor.com
 * Franklin Martins - [Back-end Developer]()
 * Ingrid Queiroz - [Business](https://www.linkedin.com/in/ingridqcosta) – ingridq_@hotmail.com
