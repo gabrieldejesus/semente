@@ -13,6 +13,8 @@ We seek to develop an app accessible to everyone, in a fun and educational way. 
 
 ## Release history
 
+* 0.1.0
+    * Project finalized and studying the possibility of adding `new resources`
 * 0.0.1
     * Work in `progress`
 
