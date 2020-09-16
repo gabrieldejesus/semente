@@ -4,7 +4,7 @@
 
 We seek to develop an app accessible to everyone, in a fun and educational way. The main functionalities that we seek to bring are: new formats to absorb reading, ranking and our AI that will be a virtual friend of the students and assistant of the teachers in encouraging reading.
 
-> Web preview
+`Web preview`
 ![](public/assets/web-preview.gif)
 
 > Team
