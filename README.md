@@ -1,6 +1,6 @@
 # Semente
 
-> Sowing the habit of reading The proposal of the Seed is to encourage the habit of reading in formats different from the way we are used to.
+Sowing the habit of reading The proposal of the Seed is to encourage the habit of reading in formats different from the way we are used to.
 
 We seek to develop an app accessible to everyone, in a fun and educational way. The main functionalities that we seek to bring are: new formats to absorb reading, ranking and our AI that will be a virtual friend of the students and assistant of the teachers in encouraging reading.
 
