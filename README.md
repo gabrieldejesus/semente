@@ -4,8 +4,6 @@
 
 The proposal of the Seed is to encourage the habit of reading in formats different from the way we are used to.
 
-We seek to develop an app accessible to everyone, in a fun and educational way. The main functionalities that we seek to bring are: new formats to absorb reading, ranking and our AI that will be a virtual friend of the students and assistant of the teachers in encouraging reading.
-
 ![](public/assets/web-preview.gif)
 
 <p align="center">
@@ -19,6 +17,10 @@ We seek to develop an app accessible to everyone, in a fun and educational way. 
    
    <img alt="GitHub license" src="https://img.shields.io/github/license/gabrieldejesus/semente?color=44E2A2&label=LICENSE&logo=3C424B&logoColor=3C424B&style=for-the-badge&labelColor=222222" />
 </p>
+
+## 📈 Example of use
+
+We seek to develop an app accessible to everyone, in a fun and educational way. The main functionalities that we seek to bring are: new formats to absorb reading, ranking and our AI that will be a virtual friend of the students and assistant of the teachers in encouraging reading.
 
 ## 🗃 Release history
 
