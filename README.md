@@ -16,6 +16,10 @@ The proposal of the Seed is to encourage the habit of reading in formats differe
    <img alt="Issues" src="https://img.shields.io/github/issues/gabrieldejesus/semente?color=44E2A2&label=ISSUES&logo=3C424B&logoColor=3C424B&style=for-the-badge&labelColor=222222" />
    
    <img alt="GitHub license" src="https://img.shields.io/github/license/gabrieldejesus/semente?color=44E2A2&label=LICENSE&logo=3C424B&logoColor=3C424B&style=for-the-badge&labelColor=222222" />
+   
+   <a href="https://github.com/gabrieldejesus">
+    <img alt="Follow gabrieldejesus" src="https://img.shields.io/static/v1?label=Follow&message=gabrieldejesus&style=for-the-badge&color=44E2A2&labelColor=222222" />
+  </a>
 </p>
 
 ## 📈 Example of use
